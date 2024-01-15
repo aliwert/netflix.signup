@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./netflixlogo.0.0.1466448626.jfif" type="image/x-icon">
+</head>
+<body>
+    <div class="content">
+        <h1>NET<span style="color: red; font-family: 'Times New Roman', Times, serif;">FLIX</span></h1>
+
+        <p class="p-element">
+        Thank you for signing up at Netflix. Tell us more about your self
+        </p>
+    
+    
+    <form>
+        <div class="container">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"><br>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="age" min="1"required placeholder="Age"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+        </div> 
+    <div class="content-type"> 
+            <label for="content-type">Content type</label><br>
+        <select id="content-type" name="content-type" required>
+            <option value="series">Series</option>
+            <option value="movie">Movie</option>
+        </select><br>
+    </div>
+    <div class="movie">
+        <label for="movie-type">Movie type</label><br>
+        <input type="checkbox" id="movie-type1">
+        <label for="movie-type1">Comedy</label><br>
+        <input type="checkbox" id="movie-type2">
+        <label for="movie-type2">Action</label><br>
+        <input type="checkbox" id="movie-type3">
+        <label for="movie-type3">Romance</label>
+    </div>
+        <br>
+        <div class="gender">
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" id="gender0" name="cinsiyet">
+            <label for="gender0">Male</label>
+            <br>
+            <input type="radio" id="gender1" name="cinsiyet">
+            <label for="gender1">Female</label>
+            <br>
+            <input type="radio" id="gender2" name="cinsiyet">
+            <label for="gender2">Other</label>
+            <br>
+        </div>
+        
+        
+        
+        <br>
+        
+        
+        <div class="feedback">
+            <label for="yorum">Feed back</label> <br>
+            <textarea name="girilen_yorum" id="yorum" placeholder="Any comment"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Submit" id="yorum2">
+    </form>
+
+</body>
+</html>

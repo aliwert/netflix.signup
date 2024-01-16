@@ -1,38 +1,103 @@
 body{
-    background-image: url(./background_image.jpg);
+    background-image: url(./img/background_image.jpg);
 }
-
-
-.content {
-    /* border: 2px solid rgb(13, 0, 255); */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.596);
-    padding: 20px;
-    /* text-align: center; */
-    border-radius: 10px;
-    color: white;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{ 
+    /* border: 2px solid green; */
+    margin: 20px 50px 10px;
+    background-color: rgba(0, 0, 0, 0.445);
     
 }
-.movie{
-    /* border: 1px solid red; */
-    display: inline-block;
-    margin-top: 15px;
+
+.p-element{
+    text-align: center;
+    color: white;
 }
+
+.container{
+    width: 350px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.811);
+    padding: 20px;
+    margin-top: 10px;
+    color: white;
+}
+/* .content-type{
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+.movie{
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+.gender{
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+.feedback{
+    width: 500px;
+    height: auto;
+    margin: auto;
+} */
+#yorum{
+    width: 280px;
+    height: 70px;
+    background-color: white;
+}
+#yorum4{
+    border: 1px solid red;
+    width: 100px;
+    height: 35px;
+    border-radius: 40px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+/* submit butonu icin */
+div#yorum4 input{ 
+    background-color: red;
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    border-style: none;
+    font-size: large;
+
+}
+/* div{
+    /* border: 2px solid green;
+} */
+/* .saydam {
+    border: 2px solid red;
+} */
+
 #name{
-    width: 400px;
+    width: 300px;
     height: 40px;
     margin-top: 10px;
+    
 }
+
 #age{
-    width: 400px;
+    width: 300px;
     height: 40px;
     margin-top: 10px;
 }
 #email{
-    width: 400px;
+    width: 300px;
     height: 40px;
     margin-top: 10px;
 }
@@ -41,27 +106,4 @@ body{
     width: 300px;
     height: 30px;
     margin-top: 8px;
-}
-.content-type{
-    margin-top: 25px;
-}
-
-.gender{
-    display: inline-block;
-    /* border: 1px solid red; */
-    margin-top: 8px;
-}
-.feedback{
-    display: inline-block;
-    /* border: 1px solid green; */
-    margin-top: 8px;
-}
-#yorum{
-    width: 350px;
-    height: 100px;
-    resize: none;
-}
-
-#yorum2{
-    border: 1px solid red;
 }

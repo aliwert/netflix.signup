@@ -11,66 +11,74 @@
     <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
 </head>
 <body>
+    <form action="./result.html" method="get">
+
+
+    <!-- Heading -->
     <form action="./result.html" method="get"></form>
-        <div class="content">
-        <h1 style="font-family: 'Bowlby One SC', sans-serif; text-align: center; font-variant: small-caps; color: white; font-variant: small-caps; letter-spacing: 4px;">NET<span style="color: red;">FLIX</span></h1>
+
+    <div class="content">
+        <h1 style="font-family: 'Bowlby One SC', sans-serif; text-align: center; font-variant: small-caps; color: white; font-variant: small-caps; letter-spacing: 4px;">Net<span style="color: red;">Flix</span></h1>
         <h3 class="p-element">
         Thank you for signing up at Netflix. Tell us more about your self
         </h3>
    
         <div class="container">
             
-        <form>
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" required placeholder="Enter your name">
-            <br><br>
-            <label for="age">Age</label><br>
-            <input type="number" id="age" name="age" min="1"required placeholder="Age">
-            <br><br>
-            <label for="email">Email</label>
-            <br><br>
-            <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+            <form>
+                <!-- Personal Informations -->
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+                <br><br>
+                <label for="age">Age</label><br>
+                <input type="number" id="age" name="age" min="1"required placeholder="Age">
+                <br><br>
+                <label for="email">Email</label>
+                <br><br>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
          
-    <!-- <div class="content-type">  -->
-            <label for="content-type">Content type</label><br>
-        <select id="content-type" name="content-type" required>
-            <option value="series">Series</option>
-            <option value="movie">Movie</option>
-        </select><br>
-    <!-- </div> -->
-    <br>
-    <!-- <div class="movie"> -->
-        <label for="movie-type">Movie type</label><br>
-        <input type="checkbox" id="movie-type1">
-        <label for="movie-type1">Comedy</label><br>
-        <input type="checkbox" id="movie-type2">
-        <label for="movie-type2">Action</label><br>
-        <input type="checkbox" id="movie-type3">
-        <label for="movie-type3">Romance</label><br>
-    <!-- </div> -->
-        <br>
-        <!-- <div class="gender"> -->
-            <label for="gender">Gender</label>
-            <br>
-            <input type="radio" id="gender0" name="cinsiyet">
-            <label for="gender0">Male</label>
-            <br>
-            <input type="radio" id="gender1" name="cinsiyet">
-            <label for="gender1">Female</label>
-            <br>
-            <input type="radio" id="gender2" name="cinsiyet">
-            <label for="gender2">Other</label>
-            <br>
-        <!-- </div> -->
-        <br>
-        <!-- <div class="feedback"> -->
-            <label for="yorum">Feed back</label> <br>
-            <textarea name="girilen_yorum" id="yorum" placeholder="Any comment" rows="45" cols="15"></textarea>
-        <!-- </div> -->
-        <br>
-        <div id="yorum4"><input type="submit" value="Submit"></div>  
-    </form>
-    </div>
+            
+
+                <!-- Contents -->
+                <label for="content-type">Content type</label><br>
+                <select id="content-type" name="content-type" required>
+                    <option value="series">Series</option>
+                    <option value="movie">Movie</option>
+                </select><br>
+   
+                <br>
+                <!-- Movie Types -->
+                <label for="movie-type">Movie type</label><br>
+                <input type="checkbox" id="movie-type1">
+                <label for="movie-type1">Comedy</label><br>
+                <input type="checkbox" id="movie-type2">
+                <label for="movie-type2">Action</label><br>
+                <input type="checkbox" id="movie-type3">
+                <label for="movie-type3">Romance</label><br>
+    
+                <br>
+                <!-- Genders -->
+                <label for="gender">Gender</label>
+                <br>
+                <input type="radio" id="gender0" name="cinsiyet">
+                <label for="gender0">Male</label>
+                <br>
+                <input type="radio" id="gender1" name="cinsiyet">
+                <label for="gender1">Female</label>
+                <br>
+                <input type="radio" id="gender2" name="cinsiyet">
+                <label for="gender2">Other</label>
+                <br>
+        
+                <br>
+                <!-- Feedbacks and submit buttons -->
+                <label for="yorum">Feed back</label> <br>
+                <textarea name="girilen_yorum" id="yorum" placeholder="Any comment" rows="45" cols="15"></textarea>
+        
+                <br>
+                <div id="yorum4"><input type="submit" value="Submit"></div>  
+            </form>
+        </div>
     </div>
 </body>
 </html>
